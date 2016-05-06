@@ -25,8 +25,6 @@ def grille (case1, case2, case3, case4, case5, case6, case7, case8, case9):
   print '|' + case7 + '|' + case8 + '|' + case9 + '|'
   return
 
-
-
 for n in range(1,6):
     question1 = raw_input('ou veut tu jouer joueur1 ? ')
     if question1 == '1':
@@ -72,4 +70,7 @@ for n in range(1,6):
     grille (case1, case2, case3, case4, case5, case6, case7, case8, case9)
 
 print 'End'
+
+sortie = raw_input('appuie sur une touche pour quitter le programme ')
+
 
