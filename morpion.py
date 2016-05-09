@@ -11,12 +11,12 @@ case7 = ' '
 case8 = ' '
 case9 = ' '
 
-pion = (raw_input('quel pion veut tu prendre joueur1 ? '))
+pion = (raw_input('quel pion veut tu prendre joueur1 (O/X)? '))
 if pion == 'X':
         pion2 = 'O'
-        print 'joueur 2 prend les (O)'
+        print 'joueur 2 prend les O'
 else:
-    print 'joueur 2 prend les X'
+		print 'joueur 2 prend les X'
 
 
 def grille (case1, case2, case3, case4, case5, case6, case7, case8, case9):
