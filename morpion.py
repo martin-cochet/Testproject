@@ -1,4 +1,4 @@
-
+ 
 # -*- coding utf-8 -*-
 
 case1 = ' '
@@ -16,6 +16,7 @@ if pion == 'X':
         pion2 = 'O'
         print 'joueur 2 prend les (O)'
 else:
+    pion2 = 'X'
     print 'joueur 2 prend les X'
 
 
